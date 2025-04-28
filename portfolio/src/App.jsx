@@ -5,6 +5,7 @@ import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
+import WorkHistory from "./components/WorkHistory.jsx";
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
           ]}
         />
         <Skills />
+        <WorkHistory />
         <Contact />
       </div>
     </main>

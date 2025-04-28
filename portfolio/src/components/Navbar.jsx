@@ -14,8 +14,9 @@ export default function Navbar() {
             <div className="ml-10 flex items-baseline space-x-6">
               <a href="#about" className="text-gray-700 hover:text-blue-500">About</a>
               <a href="#skills" className="text-gray-700 hover:text-blue-500">Skills</a>
-              <a href="#projects" className="text-gray-700 hover:text-blue-500">Projects</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-500">Contact</a>
+              <a href="#work" className="text-gray-700 hover:text-blue-500">Work</a>
+              {/* <a href="#projects" className="text-gray-700 hover:text-blue-500">Projects</a>
+              <a href="#contact" className="text-gray-700 hover:text-blue-500">Contact</a> */}
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -55,6 +56,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#about" className="block text-gray-700 hover:text-blue-500">About</a>
             <a href="#skills" className="block text-gray-700 hover:text-blue-500">Skills</a>
+            <a href="#skills" className="block text-gray-700 hover:text-blue-500">Work</a>
             <a href="#projects" className="block text-gray-700 hover:text-blue-500">Projects</a>
             <a href="#contact" className="block text-gray-700 hover:text-blue-500">Contact</a>
           </div>
