@@ -56,7 +56,7 @@ export default function WorkHistory() {
               <div className="flex items-center mb-2">
                 {/* Insert company logo below */}
                 <img
-                  src={`/src/assets/${job.logo}`} // Replace company_name.jpg appropriately
+                  src={`../assets/${job.logo}`} // Replace company_name.jpg appropriately
                   alt={`${job.company} Logo`}
                   className="w-10 h-10 rounded-full mr-4 object-cover"
                 />
