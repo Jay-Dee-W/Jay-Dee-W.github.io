@@ -15,8 +15,8 @@ export default function Navbar() {
               <a href="#about" className="text-gray-700 hover:text-blue-500">About</a>
               <a href="#skills" className="text-gray-700 hover:text-blue-500">Skills</a>
               <a href="#work" className="text-gray-700 hover:text-blue-500">Work</a>
-              {/* <a href="#projects" className="text-gray-700 hover:text-blue-500">Projects</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-500">Contact</a> */}
+              <a href="#projects" className="text-gray-700 hover:text-blue-500">Projects</a>
+              {/* <a href="#contact" className="text-gray-700 hover:text-blue-500">Contact</a>  */}
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">

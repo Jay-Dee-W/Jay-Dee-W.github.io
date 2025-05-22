@@ -47,22 +47,14 @@ export default function WorkHistory() {
             className="mb-12 group"
           >
             <div className="flex flex-col items-start">
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white mb-4 shadow-md"
-              >
-                <span className="text-sm font-bold">{index + 1}</span>
-              </motion.div>
               <div className="flex items-center mb-2">
-                {/* Insert company logo below */}
                 <img
-                  src={`../assets/${job.logo}`} // Replace company_name.jpg appropriately
+                  src={`../assets/${job.logo}`} 
                   alt={`${job.company} Logo`}
                   className="w-10 h-10 rounded-full mr-4 object-cover"
                 />
                 <h3 className="text-xl font-semibold text-blue-700">
                   {job.title} @ {" "}
-                  {/* Insert hyperlink below by replacing the '#' with your company's URL */}
                   <a  href={job.link} target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-500">
                     {job.company}
                   </a>

@@ -14,32 +14,9 @@ export default function App() {
       <div className="p-4">
         <Hero />
         <About />
-        <Projects
-          projects={[
-            {
-              title: "Inventory Manager / Expense Tracker",
-              description: "A CRUD app showcasing local storage/backend integration, form handling and validation, real-time UI updates, and modular design.",
-              tech: ["React", "Node.js", "LocalStorage", "Express"]
-            },
-            {
-              title: "Real-Time Chat App",
-              description: "Built with Firebase or WebSocket stack, includes OAuth/JWT auth, real-time updates, and a clean Vue UI.",
-              tech: ["Vue", "Firebase", "Socket.io", "OAuth", "JWT"]
-            },
-            {
-              title: "E-commerce Store",
-              description: "A full store with Stripe/PayPal integration, global state management, strong validation, and reusable components.",
-              tech: ["React", "Redux", "Stripe", "Tailwind"]
-            },
-            {
-              title: "SaaS Dashboard",
-              description: "Admin panel with charts, KPIs, role-based access, and Node/Django/Laravel backend integration.",
-              tech: ["Next.js", "Chart.js", "Node", "Django", "Tailwind"]
-            }
-          ]}
-        />
         <Skills />
         <WorkHistory />
+        <Projects />
         <Contact />
       </div>
     </main>
